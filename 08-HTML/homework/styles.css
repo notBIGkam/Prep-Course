@@ -1,6 +1,17 @@
 h1 {
     color: chocolate;
+    text-align: center;
 }
+h3 {
+    text-align: center;
+    color: beige;
+}
+
+h4 {
+    text-align: center;
+    color: blanchedalmond;
+}
+
 
 img {
     width: 400px;
@@ -10,16 +21,35 @@ thirdDiv {
     height: 600px;
     width: 400px;
     background-color: hotpink;
+    margin: auto;
 }
 
 #spanId {
     font-size: 18px;
     margin: 50px;
+    color: lightblue
 }
 
 #thirdDiv {
     padding: 50px;
     border: 10px, auto;
-    background-color: blue;
-
+    background: rgba(255, 255, 255, 0.608);
+  
 }
+
+html {
+    background-image: url('https://t3.ftcdn.net/jpg/03/40/93/00/360_F_340930009_WtmPbofCmuBGo3SxTR59e3qUrUs8Bm2Y.jpg');
+    display: flex;
+    justify-content: center;
+}
+
+divClass {
+margin: auto;
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
