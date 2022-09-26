@@ -41,6 +41,7 @@ html {
     background-image: url('https://t3.ftcdn.net/jpg/03/40/93/00/360_F_340930009_WtmPbofCmuBGo3SxTR59e3qUrUs8Bm2Y.jpg');
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 divClass {
@@ -53,3 +54,6 @@ img {
     margin-right: auto;
 }
 
+#link {
+    color: white
+}
